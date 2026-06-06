@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F0E6;
+    color: #3A2D28;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+  }
+}
+
+/* Background grain overlay */
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.04;
+  background-image: url("https://www.transparenttextures.com/patterns/p6.png");
+}
+
+/* Hero section lighting gradient */
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(139, 94, 60, 0.07) 0%, transparent 70%);
+}
+
+/* Underline reveal animation */
+.underline-anim {
+  position: relative;
+}
+
+.underline-anim::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #8B5E3C;
+  transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.underline-anim.active::after {
+  width: 100%;
+}
+
+/* Soft warm glow shadows */
+.chat-glow {
+  box-shadow: 0 4px 20px -5px rgba(139, 94, 60, 0.08);
+}
+
+.chat-glow:focus-within {
+  box-shadow: 0 4px 25px -2px rgba(139, 94, 60, 0.15);
+  border-color: rgba(139, 94, 60, 0.4);
+}
+
+/* Premium shadows & lift */
+.premium-shadow-hover {
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.4s ease;
+}
+
+.premium-shadow-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(58, 45, 40, 0.08);
+  border-color: rgba(139, 94, 60, 0.25);
+}
+
+/* Grainy tactile surface overlay for cards */
+.grainy-surface {
+  position: relative;
+}
+
+.grainy-surface::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.025;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  border-radius: inherit;
+}
+
+/* Custom scrollbar matching Espresso + Gold colors */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F0E6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8DFCF;
+  border: 2px solid #F5F0E6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B5E3C;
+}
+
+/* Selection color overrides */
+::selection {
+  background-color: rgba(139, 94, 60, 0.15);
+  color: #3A2D28;
+}
+
+/* Animation utilities */
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
