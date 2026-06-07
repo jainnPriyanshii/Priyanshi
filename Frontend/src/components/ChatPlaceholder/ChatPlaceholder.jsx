@@ -3,12 +3,7 @@ import { FiSend, FiMessageSquare, FiUser, FiCpu } from 'react-icons/fi';
 import { LuSparkles } from 'react-icons/lu';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const responses = {
-  default: "I'm Priyanshi's AI assistant. I can tell you that she is a Full Stack Developer & AI Engineer with a 9.15 CGPA from SKIT Jaipur. She specializes in LLM building, RAG systems, Spring Boot, and React.js. Explore the sections below or ask me about her AI work!",
-  built: "Priyanshi has built several premium products: \n1. **MayaX**: An AI-powered interior design ecosystem leveraging real-time computer vision.\n2. **WalletWhiz**: A personal finance manager with predictive analytics.\n3. **EcoCycle**: A waste recycling scheduler with Dijkstra routing optimization.\n4. **AI PDF Chatbot**: A vector-search RAG chatbot citing sources.\n\nScroll down to the 'Work' section to see more!",
-  ai: "Priyanshi builds production-grade Generative AI applications. Her toolkit includes **LangChain**, **RAG pipelines**, **vector databases (ChromaDB)**, **OpenAI APIs**, and **Hugging Face**. She engineered an AI PDF Chatbot that reads and summarizes large documents with zero-shot prompting.",
-  work: "Yes, Priyanshi is actively looking for Full-Stack Developer and AI Engineer roles starting in 2026. She is also open to technical internships. You can reach out directly via the 'Contact' section below!"
-};
+const API_URL = 'http://localhost:5000';
 
 export default function ChatPlaceholder() {
   const [inputValue, setInputValue] = useState('');
@@ -25,7 +20,6 @@ export default function ChatPlaceholder() {
       const text = e.detail;
       const inputEl = document.querySelector('input[placeholder*="Ask me anything"]');
       if (inputEl) {
-        // Smooth scroll to the chat input container
         inputEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setTimeout(() => {
           inputEl.focus();
@@ -38,7 +32,7 @@ export default function ChatPlaceholder() {
     return () => window.removeEventListener('ask-ai', handleAskAi);
   }, [messages]);
 
-  const handleSend = (text) => {
+  const handleSend = async (text) => {
     if (!text.trim()) return;
 
     // Add user message
@@ -47,21 +41,34 @@ export default function ChatPlaceholder() {
     setInputValue('');
     setIsTyping(true);
 
-    // Determine mock reply
-    let reply = responses.default;
-    const lowerText = text.toLowerCase();
-    if (lowerText.includes('built') || lowerText.includes('project') || lowerText.includes('showcase')) {
-      reply = responses.built;
-    } else if (lowerText.includes('ai') || lowerText.includes('llm') || lowerText.includes('rag') || lowerText.includes('stack')) {
-      reply = responses.ai;
-    } else if (lowerText.includes('open') || lowerText.includes('hire') || lowerText.includes('job') || lowerText.includes('work')) {
-      reply = responses.work;
-    }
+    try {
+      const response = await fetch(`${API_URL}/chat`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ message: text }),
+      });
 
-    setTimeout(() => {
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Something went wrong');
+      }
+
       setIsTyping(false);
-      setMessages(prev => [...prev, { sender: 'ai', text: reply }]);
-    }, 1200);
+      setMessages(prev => [...prev, { sender: 'ai', text: data.answer }]);
+    } catch (error) {
+      console.error('Chat API error:', error);
+      setIsTyping(false);
+      setMessages(prev => [
+        ...prev,
+        {
+          sender: 'ai',
+          text: "Sorry, I'm having trouble connecting right now. Please make sure the backend server is running and try again.",
+        },
+      ]);
+    }
   };
 
   const handleKeyPress = (e) => {
@@ -136,7 +143,8 @@ export default function ChatPlaceholder() {
           />
           <button 
             onClick={() => handleSend(inputValue)}
-            className="absolute right-4 w-9 h-9 bg-accent hover:bg-accent/90 text-background rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 shadow-sm"
+            disabled={isTyping}
+            className="absolute right-4 w-9 h-9 bg-accent hover:bg-accent/90 text-background rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
             aria-label="Send query"
           >
             <FiSend size={16} />
@@ -148,27 +156,26 @@ export default function ChatPlaceholder() {
       <div className="flex flex-wrap justify-center gap-2 mt-1">
         <button 
           onClick={() => handleSend("What have you built?")}
-          className="font-mono text-[10px] md:text-xs px-4 py-2 rounded-full border border-secondary/20 bg-card/60 text-secondary hover:border-accent/50 hover:text-accent hover:bg-card transition-all duration-300 active:scale-95"
+          disabled={isTyping}
+          className="font-mono text-[10px] md:text-xs px-4 py-2 rounded-full border border-secondary/20 bg-card/60 text-secondary hover:border-accent/50 hover:text-accent hover:bg-card transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           What have you built?
         </button>
         <button 
           onClick={() => handleSend("Tell me about your AI work")}
-          className="font-mono text-[10px] md:text-xs px-4 py-2 rounded-full border border-secondary/20 bg-card/60 text-secondary hover:border-accent/50 hover:text-accent hover:bg-card transition-all duration-300 active:scale-95"
+          disabled={isTyping}
+          className="font-mono text-[10px] md:text-xs px-4 py-2 rounded-full border border-secondary/20 bg-card/60 text-secondary hover:border-accent/50 hover:text-accent hover:bg-card transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Tell me about your AI work
         </button>
         <button 
           onClick={() => handleSend("Are you open to work?")}
-          className="font-mono text-[10px] md:text-xs px-4 py-2 rounded-full border border-secondary/20 bg-card/60 text-secondary hover:border-accent/50 hover:text-accent hover:bg-card transition-all duration-300 active:scale-95"
+          disabled={isTyping}
+          className="font-mono text-[10px] md:text-xs px-4 py-2 rounded-full border border-secondary/20 bg-card/60 text-secondary hover:border-accent/50 hover:text-accent hover:bg-card transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Are you open to work?
         </button>
       </div>
-
-      {/* <p className="font-mono text-[9px] uppercase tracking-wider text-secondary/40 text-center mt-2 flex items-center justify-center gap-1 select-none">
-        <LuSparkles size={10} className="text-accent/40" /> Isolated UI Component — Backend Integration Ready
-      </p> */}
     </div>
   );
 }
