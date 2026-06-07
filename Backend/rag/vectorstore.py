@@ -1,25 +1,31 @@
+import os
+
 from langchain_chroma import Chroma
 
-from loader import load_documents
-from chunker import split_documents
-from embeddings import get_embedding_model
+from rag.loader import load_documents
+from rag.chunker import split_documents
+from rag.embeddings import get_embedding_model
 
 
 def create_vector_store():
-    # Load documents
+    
     documents = load_documents()
 
-    # Create chunks
+   
     chunks = split_documents(documents)
 
-    # Load embedding model
+    
     embedding_model = get_embedding_model()
 
-    # Create and persist ChromaDB
+    # Build absolute path to chroma_db relative to this file's location
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    chroma_path = os.path.join(os.path.dirname(current_dir), "chroma_db")
+
+    
     vector_store = Chroma.from_documents(
         documents=chunks,
         embedding=embedding_model,
-        persist_directory="../chroma_db",
+        persist_directory=chroma_path,
         collection_name="portfolio_chatbot"
     )
 
@@ -29,4 +35,4 @@ def create_vector_store():
 
 
 if __name__ == "__main__":
-    create_vector_store()
+    create_vector_store()

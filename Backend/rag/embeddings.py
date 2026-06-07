@@ -1,9 +1,16 @@
 from sentence_transformers import SentenceTransformer
-from chunker import split_documents
-from loader import load_documents
 from langchain_huggingface import HuggingFaceEmbeddings
 
+
+def get_embedding_model():
+    return HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2"
+    )
+
+
 def generate_embeddings():
+    from rag.chunker import split_documents
+    from rag.loader import load_documents
     
     model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
@@ -24,12 +31,5 @@ def generate_embeddings():
     return embeddings
 
 
-
-generate_embeddings()
-
-
-
-def get_embedding_model():
-    return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
-    )
+if __name__ == "__main__":
+    generate_embeddings()

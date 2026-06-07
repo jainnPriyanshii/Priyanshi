@@ -1,7 +1,7 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from loader import load_documents
+from rag.loader import load_documents
 
-def split_documents(documents,chunk_size=1000,chunk_overlap=200):
+def split_documents(documents,chunk_size=500,chunk_overlap=100):
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
@@ -19,5 +19,7 @@ def split_documents(documents,chunk_size=1000,chunk_overlap=200):
 
     return split_docs
 
-documents = load_documents()
-chunks = split_documents(documents)
+
+if __name__ == "__main__":
+    documents = load_documents()
+    chunks = split_documents(documents)

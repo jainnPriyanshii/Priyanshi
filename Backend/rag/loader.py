@@ -7,8 +7,12 @@ import os
 
 
 def load_documents():
+    # Get the directory where this file is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(os.path.dirname(current_dir), "data")
+    
     loader = DirectoryLoader(
-       path="../data",
+       path=data_path,
        glob="**/*.txt",
         loader_cls=TextLoader
     )
@@ -17,10 +21,10 @@ def load_documents():
 
     return documents
 
-documents = load_documents()
-print(f"Loaded {len(documents)} documents")
 
-for doc in documents:
-    print(doc.metadata)
-    
+if __name__ == "__main__":
+    documents = load_documents()
+    print(f"Loaded {len(documents)} documents")
 
+    for doc in documents:
+        print(doc.metadata)
