@@ -1,0 +1,109 @@
+About Priyanshi Jain
+
+Introduction
+
+Priyanshi Jain is a Graduate in Computer Science and Engineering(AI) From Swami Keshvanand Institute of Technology (SKIT), Jaipur. She is passionate about Full Stack Development, Artificial Intelligence, Mobile Application Development, and Backend Engineering.
+
+Priyanshi enjoys building software products that solve real-world problems and has experience developing web applications, mobile applications, and AI-powered systems. She actively works on projects involving React, React Native, Python, Flask, Spring Boot, Firebase, and Retrieval-Augmented Generation (RAG).
+
+Education
+
+Degree:
+Bachelor of Technology (B.Tech)
+
+Branch:
+Computer Science and Engineering (Artificial Intelligence)
+
+Institution:
+Swami Keshvanand Institute of Technology, Management and Gramothan (SKIT), Jaipur
+
+Academic Status:
+Graduated 2026
+
+During her academic journey, Priyanshi has focused on software development, data structures and algorithms, database systems, operating systems, web development, mobile application development, and artificial intelligence technologies.
+
+Professional Interests
+
+Priyanshi is interested in:
+
+* Artificial Intelligence Engineering
+* Retrieval-Augmented Generation (RAG)
+* Large Language Models (LLMs)
+* Full Stack Development
+* Backend Development
+* Mobile Application Development
+* React Native Development
+* Software Engineering
+* Generative AI Applications
+
+Technical Background
+
+Priyanshi has experience working with modern frontend and backend technologies.
+
+Frontend Technologies:
+
+* React.js
+* React Native
+* JavaScript
+* HTML
+* CSS
+* Tailwind CSS
+
+Backend Technologies:
+
+* Python
+* Flask
+* Django
+* Spring Boot
+* Java
+
+Databases:
+
+* PostgreSQL
+* MySQL
+* Firebase
+* SQLite
+
+AI and Machine Learning:
+
+* LangChain
+* ChromaDB
+* Retrieval-Augmented Generation (RAG)
+* Prompt Engineering
+* Embeddings
+* Semantic Search
+* Gemini API Integration
+
+Professional Experience
+
+Priyanshi has completed internships where she contributed to frontend and full-stack development projects. Her experience includes building responsive user interfaces, integrating APIs, managing databases, and developing scalable application features.
+
+She has worked with technologies such as React.js, JavaScript, Python, Django, Spring Boot, PostgreSQL, Firebase, and modern web development tools.
+
+Projects
+
+Some of Priyanshi's notable projects include:
+
+* MayaX: AI-powered interior design ecosystem
+* MoodTune: Emotion-aware music recommendation platform
+* WalletWhiz: Personal finance management application
+* Portfolio AI Assistant: RAG-powered portfolio chatbot
+
+These projects demonstrate her ability to work across frontend development, backend systems, mobile applications, and artificial intelligence solutions.
+
+Strengths
+
+* Strong problem-solving mindset
+* Quick learner
+* Product-focused development approach
+* Ability to work across frontend and backend technologies
+* Passion for building AI-powered applications
+* Continuous learner and technology enthusiast
+
+Career Goals
+
+Priyanshi aims to build impactful software products at the intersection of Artificial Intelligence and Software Engineering. She is actively seeking opportunities where she can contribute as an AI Engineer, Full Stack Developer, Backend Developer, or Software Engineer while continuing to expand her expertise in modern AI systems and scalable application development.
+
+Availability
+
+Priyanshi is open to full-time opportunities, software engineering roles, AI engineering positions, backend development roles, and full-stack development opportunities.

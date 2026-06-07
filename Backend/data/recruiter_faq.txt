@@ -1,0 +1,180 @@
+Recruiter Frequently Asked Questions
+
+Question: Tell me about yourself.
+
+Answer:
+
+Hi, I'm Priyanshi Jain, Computer Science and Engineering Graduate From Swami Keshvanand Institute of Technology (SKIT), Jaipur. I am passionate about Full Stack Development, Artificial Intelligence, and Mobile Application Development.
+
+I have experience building web applications, mobile applications, and AI-powered solutions using React, React Native, Python, Flask,Spring Boot, PostgreSQL, Firebase, and modern development tools.
+
+Through internships and personal projects, I have worked on frontend development, backend systems, API integration, database management, and AI applications. My recent focus has been on Retrieval-Augmented Generation (RAG), Large Language Models, and AI-powered products.
+
+---
+
+Question: What kind of role are you looking for?
+
+Answer:
+
+I am actively seeking opportunities in:
+
+* Software Engineering
+* Full Stack Development
+* AI Engineering
+* Backend Development
+* React Native Development
+* Application Development
+
+I am particularly interested in roles where I can contribute to building scalable software systems and AI-powered products while continuing to grow as an engineer.
+
+---
+
+Question: Why should we hire you?
+
+Answer:
+
+I bring a combination of strong technical skills, practical project experience, and a continuous learning mindset.
+
+I have experience across frontend development, backend development, mobile application development, and AI systems. Through internships and personal projects, I have worked with modern technologies such as React, React Native, Python, Spring Boot, Firebase, PostgreSQL, LangChain, and ChromaDB.
+
+I enjoy solving problems, learning new technologies, and taking ownership of projects from idea to deployment. I am highly motivated to contribute to real-world products while continuously improving my engineering skills.
+
+---
+
+Question: What are your strongest technical skills?
+
+Answer:
+
+My strongest technical skills include:
+
+Frontend:
+
+* React.js
+* React Native
+* JavaScript
+* Tailwind CSS
+
+Backend:
+
+* Python
+* Flask
+* Node.js
+* Spring Boot
+
+Databases:
+
+* PostgreSQL
+* MySQL
+* Firebase
+
+Artificial Intelligence:
+
+* LangChain
+* Retrieval-Augmented Generation (RAG)
+* ChromaDB
+* Prompt Engineering
+* Semantic Search
+
+---
+
+Question: What is your strongest project?
+
+Answer:
+
+One of my strongest projects is MayaX, an AI-powered interior design ecosystem.
+
+MayaX combines mobile application development and artificial intelligence to help users discover personalized interior design recommendations. The project demonstrates my ability to work across frontend development, backend development, user experience design, and AI integration.
+
+The project showcases my skills in React Native, Flask, Python, and building user-focused applications.
+
+---
+
+Question: What AI-related projects have you built?
+
+Answer:
+
+I have worked on several AI-focused projects, including:
+
+* MayaX, an AI-powered interior design platform.
+* MoodTune, an emotion-aware music recommendation application.
+* Portfolio AI Assistant, a Retrieval-Augmented Generation (RAG) chatbot capable of answering questions about my projects, skills, and experience.
+
+These projects helped me gain practical experience in AI integration, recommendation systems, semantic search, embeddings, and modern AI application development.
+
+---
+
+Question: Do you have internship experience?
+
+Answer:
+
+Yes.
+
+I have completed internships at:
+
+* Yzech as a Full Stack Developer Intern.
+* HUBX as a React.js Developer Intern.
+* Bluestock Fintech as a Frontend and Backend Development Intern.
+
+These experiences allowed me to work on real-world software applications, frontend interfaces, backend systems, API integration, and database management.
+
+---
+
+Question: What technologies are you currently learning?
+
+Answer:
+
+I am currently focusing on:
+
+* Artificial Intelligence Engineering
+* Retrieval-Augmented Generation (RAG)
+* LangChain
+* ChromaDB
+* Spring Boot
+* Large Language Models
+* Backend System Design
+* Scalable Software Architecture
+
+My goal is to become a strong Software Engineer with expertise in AI-powered systems.
+
+---
+
+Question: Are you open to relocation?
+
+Answer:
+
+I am open to discussing relocation opportunities depending on the role, responsibilities, and growth opportunities offered.
+
+---
+
+Question: Are you open to remote work?
+
+Answer:
+
+Yes, I am open to remote, hybrid, and on-site opportunities.
+
+---
+
+Question: What makes you different from other candidates?
+
+Answer:
+
+My background combines Full Stack Development, Mobile Application Development, and emerging AI technologies.
+
+While many candidates focus on only one area, I enjoy building complete products from frontend interfaces to backend systems and AI integrations. I actively learn new technologies, build projects independently, and continuously improve my problem-solving and software engineering skills.
+
+I believe in learning by building, which is reflected in the projects and applications I have developed throughout my academic and professional journey.
+
+---
+
+Question: How can I contact you?
+
+Answer:
+
+You can reach Priyanshi Jain through:
+
+* Email
+* LinkedIn
+* GitHub
+* Portfolio Website
+
+All contact information is available in the Contact section of the portfolio.

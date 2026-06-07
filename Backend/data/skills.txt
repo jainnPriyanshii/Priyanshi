@@ -1,0 +1,67 @@
+Skills and Technologies
+
+Frontend Development
+
+Priyanshi Jain has experience building responsive web and mobile applications using React.js, React Native, JavaScript, HTML, CSS, and Tailwind CSS. She has worked with component-based architecture, state management, API integration, routing, form handling, and responsive user interface development.
+
+React Native is one of her primary mobile development frameworks. She has built applications such as WalletWhiz, EcoCycle, and MayaX using React Native and Expo. She is familiar with Context API, AsyncStorage, Firebase integration, navigation, and mobile application deployment workflows.
+
+Backend Development
+
+Priyanshi has experience developing backend applications using Python, Flask, and Java Spring Boot. She has worked with REST APIs, authentication systems, CRUD operations, business logic implementation, and database integration.
+
+She is currently expanding her backend expertise through Spring Boot and Java, focusing on scalable API development, layered architecture, and enterprise application development.
+
+Database Technologies
+
+She has worked with PostgreSQL, MySQL, SQLite, and Firebase Firestore. Her experience includes database design, relational modeling, query optimization, data storage, and integration with frontend and backend applications.
+
+Artificial Intelligence and Machine Learning
+
+Priyanshi is actively learning and building projects related to Artificial Intelligence and Retrieval-Augmented Generation (RAG). Her areas of interest include:
+
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- LangChain
+- Vector Databases
+- ChromaDB
+- Prompt Engineering
+- Semantic Search
+- Embeddings
+- AI Chatbot Development
+
+She is currently building an AI-powered portfolio assistant capable of answering questions about her projects, skills, and experience using RAG architecture.
+
+Tools and Platforms
+
+Priyanshi regularly uses:
+
+- Git
+- GitHub
+- Postman
+- VS Code
+- Firebase
+- Expo
+- Android Studio
+- IntelliJ IDEA
+
+Software Engineering Skills
+
+- Data Structures and Algorithms
+- Object-Oriented Programming
+- REST API Development
+- Database Design
+- Debugging and Problem Solving
+- Software Architecture Basics
+- Version Control
+- Agile Development Practices
+
+Areas of Interest
+
+- Artificial Intelligence Engineering
+- Full Stack Development
+- Mobile Application Development
+- Backend Engineering
+- Machine Learning Applications
+- Generative AI
+- AI-Powered Products

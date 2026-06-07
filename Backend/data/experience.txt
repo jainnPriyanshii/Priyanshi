@@ -1,0 +1,119 @@
+Professional Experience
+
+Company: Yzech
+
+Role:
+Full Stack Developer Intern
+
+Overview:
+
+At Yzech, Priyanshi worked as a Full Stack Developer Intern, contributing to the development of web applications involving both frontend and backend technologies. The internship provided hands-on experience in building scalable software solutions, integrating APIs, managing databases, and implementing business logic.
+
+Responsibilities:
+
+* Developed responsive user interfaces using React.js.
+* Worked on backend development using Spring Boot and Java.
+* Built and integrated REST APIs.
+* Managed database operations using PostgreSQL.
+* Participated in feature implementation and bug fixing.
+* Collaborated with team members to improve application functionality and user experience.
+* Followed software development best practices and version control workflows.
+
+Technologies Used:
+
+* React.js
+* JavaScript
+* Spring Boot
+* Java
+* PostgreSQL
+* Git
+* REST APIs
+
+Skills Gained:
+
+* Full Stack Development
+* API Development
+* Database Management
+* Backend Architecture
+* Team Collaboration
+
+---
+
+Company: HUBX
+
+Role:
+React.js Developer Intern
+
+Overview:
+
+During her internship at HUBX, Priyanshi focused primarily on frontend development using React.js. She worked on building user interfaces, improving application usability, integrating APIs, and optimizing frontend performance.
+
+Responsibilities:
+
+* Developed reusable React components.
+* Integrated frontend applications with backend APIs.
+* Improved user interface consistency and responsiveness.
+* Worked on dashboard and CRM-style interfaces.
+* Implemented state management solutions.
+* Participated in debugging and performance optimization.
+
+Technologies Used:
+
+* React.js
+* JavaScript
+* HTML
+* CSS
+* REST APIs
+
+Skills Gained:
+
+* Frontend Development
+* Component-Based Architecture
+* State Management
+* Responsive Design
+* API Integration
+
+---
+
+Company: Bluestock Fintech
+
+Role:
+Frontend Development Intern
+
+Overview:
+
+At Bluestock Fintech, Priyanshi gained experience working on both frontend development tasks. She contributed to developing web application features and learned how different layers of an application interact in a real-world development environment.
+
+Responsibilities:
+
+* Built frontend interfaces using HTML, CSS, and JavaScript.
+* Assisted in implementing web application functionality.
+* Performed debugging and testing of application features.
+* Participated in integrating frontend and backend components.
+* Contributed to database-related operations and application maintenance.
+
+Technologies Used:
+
+* HTML
+* CSS
+* JavaScript
+* Python
+
+
+
+Skills Gained:
+
+
+
+* Frontend Development
+* API integration
+
+---
+
+Summary of Professional Experience
+
+Through multiple internships, Priyanshi has gained practical experience across frontend development, backend engineering, full-stack application development, API integration, database management, and software engineering workflows.
+
+Her professional experience includes working with technologies such as React.js, React Native, JavaScript, Python, Flask, Spring Boot, PostgreSQL, Firebase, and modern web development tools.
+
+These experiences have strengthened her ability to design, develop, and maintain real-world software applications while collaborating effectively in professional development environments.

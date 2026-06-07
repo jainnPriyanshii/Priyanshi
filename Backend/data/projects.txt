@@ -1,0 +1,116 @@
+Projects
+
+Project: MayaX
+
+Category: AI-Powered Interior Design Ecosystem
+
+Description:
+
+MayaX is an AI-driven interior design platform designed to help users discover, visualize, and personalize interior spaces. The application combines artificial intelligence with modern mobile development to provide intelligent design recommendations based on user preferences, room types, color palettes, and style selections.
+
+The goal of MayaX is to simplify the interior design process by allowing users to explore design inspirations, receive AI-powered recommendations, and interact with a personalized design assistant.
+
+Key Features:
+
+* AI-powered interior design recommendations
+* Personalized room and style suggestions
+* User preference and profile management
+* Interactive design exploration experience
+* Modern cross-platform mobile application architecture
+
+Technologies Used:
+
+* React Native
+* Expo
+* Flask
+* Python
+* Supabase
+
+Project: MoodTune
+
+Category: AI-Powered Music Recommendation Platform
+
+Description:
+
+MoodTune is an intelligent music recommendation application that analyzes user emotions and moods to provide personalized music suggestions. The platform combines facial emotion recognition, text sentiment analysis, and AI-based recommendation techniques to create a dynamic listening experience.
+
+Users can interact with the system through text or facial inputs, allowing the application to understand their emotional state and recommend songs that match their current mood.
+
+Key Features:
+
+* Real-time emotion detection
+* Sentiment analysis from text input
+* Mood-based music recommendations
+* Personalized listening experience
+* AI-assisted recommendation workflow
+
+Technologies Used:
+
+* React.js
+* Flask
+* Python
+* DeepFace
+* OpenCV
+
+
+Project: WalletWhiz
+
+Category: Personal Finance Management Application
+
+Description:
+
+WalletWhiz is a cross-platform personal finance management application developed to help users track expenses, manage budgets, and monitor financial activities. The application focuses on providing a clean user experience while offering meaningful insights into spending patterns and financial habits.
+
+The platform enables users to organize transactions, visualize expenses, and make informed financial decisions through structured data tracking and reporting.
+
+Key Features:
+
+* Expense tracking
+* Budget management
+* Financial analytics
+* Category-based transaction management
+* User-friendly dashboard and reporting
+
+Technologies Used:
+
+* React Native
+* Expo
+* Firebase
+* Context API
+* AsyncStorage
+
+Project: Portfolio AI Assistant
+
+Category: Retrieval-Augmented Generation (RAG) Application
+
+Description:
+
+Portfolio AI Assistant is a RAG-powered chatbot integrated into a personal portfolio website. The assistant is designed to answer recruiter and visitor questions regarding projects, technical skills, professional experience, education, and career interests.
+
+The system retrieves relevant information from a custom knowledge base containing portfolio content, project descriptions, skills, and experience details before generating responses. This enables accurate and context-aware conversations instead of relying solely on general-purpose AI responses.
+
+Key Features:
+
+* Portfolio-aware conversational assistant
+* Retrieval-Augmented Generation (RAG)
+* Semantic search using embeddings
+* Vector database integration
+* Recruiter-focused question answering
+* Real-time contextual responses
+
+Technologies Used:
+
+* React.js
+* Flask
+* LangChain
+* ChromaDB
+* Gemini API
+* Vector Embeddings
+
+Additional Projects
+
+For additional projects and repositories, visitors can explore Priyanshi Jain's GitHub profile:
+
+GitHub: https://github.com/priyanshijj
+
+The GitHub profile contains source code, experiments, learning projects, full-stack applications, React Native applications, AI projects, and ongoing development work.
