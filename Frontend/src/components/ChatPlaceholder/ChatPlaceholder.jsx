@@ -3,7 +3,7 @@ import { FiSend, FiMessageSquare, FiUser, FiCpu } from 'react-icons/fi';
 import { LuSparkles } from 'react-icons/lu';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://loyal-reprieve-production-eb16.up.railway.app';
 
 export default function ChatPlaceholder() {
   const [inputValue, setInputValue] = useState('');
