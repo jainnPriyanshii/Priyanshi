@@ -13,8 +13,8 @@ export const projects = [
       "Edge-based OpenCV filtering for structural contour mapping",
       "Interactive 3D preview engine for custom item placement"
     ],
-    github: "https://github.com/priyanshijj/mayax",
-    demo: "https://mayax.dev"
+    github: "https://github.com/Mehul112004/MayaX",
+    // demo: "https://mayax.dev"
   },
   {
   id: "moodtune",
@@ -31,8 +31,8 @@ export const projects = [
     "Integrated music playback and playlist generation",
     "Interactive chatbot for mood-based music suggestions"
   ],
-  github: "https://github.com/priyanshijj/moodtune",
-  demo: "https://moodtune.dev"
+  github: "https://github.com/jainnPriyanshii/MoodTune-Frontend",
+  // demo: "https://moodtune.dev"
 },
   {
     id: "walletwhiz",
@@ -48,25 +48,26 @@ export const projects = [
       "Encrypted Plaid integration for secure sync across banks",
       "Automated CSV statement parser and anomaly detection"
     ],
-    github: "https://github.com/priyanshijj/walletwhiz",
-    demo: "https://walletwhiz.dev"
+    github: "https://github.com/jainnPriyanshii/WalletWhiz",
+    // demo: "https://walletwhiz.dev"
   },
  
   {
-    id: "aipdfchatbot",
-    title: "AI PDF Chatbot",
-    category: "GENERATIVE AI & RAG",
-    subtitle: "RAG-based chatbot using PDFs and vector search",
-    description: "An enterprise-grade document intelligence system that reads, indexes, and queries large PDF archives. Implements retrieval-augmented generation (RAG) to cite pages and documents while eliminating hallucinations.",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
-    technologies: ["React.js", "LangChain", "OpenAI APIs", "ChromaDB", "Python"],
+    id: "portfolio-ai-assistant",
+    title: "Portfolio AI Assistant",
+    category: "RAG APPLICATION",
+    subtitle: "RAG-powered portfolio chatbot for recruiters",
+    description: "Portfolio AI Assistant is a RAG-powered chatbot integrated into this portfolio website. It answers recruiter and visitor questions regarding projects, technical skills, professional experience, education, and career interests by retrieving relevant information from a custom knowledge base before generating responses — enabling accurate and context-aware conversations.",
+    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80",
+    technologies: ["React.js", "Flask", "LangChain", "ChromaDB", "Gemini API", "Vector Embeddings"],
     features: [
-      "Granular document parsing and intelligent chunk splitters",
-      "Vector embedding pipelines with semantic similarity search",
-      "Context-aware querying with zero-shot prompting strategies",
-      "Source verification showing highlighted pages and text snippets"
+      "Portfolio-aware conversational assistant with real-time contextual responses",
+      "Retrieval-Augmented Generation (RAG) pipeline for accurate answers",
+      "Semantic search using vector embeddings for relevant document retrieval",
+      "ChromaDB vector database integration for persistent knowledge storage",
+      "Recruiter-focused question answering on skills, projects, and experience"
     ],
-    github: "https://github.com/priyanshijj/ai-pdf-chatbot",
-    demo: "https://pdfchat.priyanshi.dev"
+    github: "https://github.com/jainnPriyanshii/Priyanshi",
+    demo: "https://priyanshi-nine.vercel.app/"
   }
 ];

@@ -25,7 +25,7 @@ export default function Footer() {
       </a>
 
       <p className="font-sans text-sm text-secondary/80 max-w-md">
-        This portfolio is powered by a client-side AI trained on my software engineering credentials.
+       Building intelligent applications at the intersection of Full-Stack Development and AI.
       </p>
 
       <div className="flex gap-6 mt-2">

@@ -37,4 +37,4 @@ export const skillCategories = [
   }
 ];
 
-export const skillsQuote = "I build AI systems that work in production—combining rigorous engineering with the warmth of thoughtful design to create experiences that feel less like software and more like craftsmanship.";
+export const skillsQuote = "I build mobile, web, and AI-powered experiences that combine thoughtful design, scalable engineering, and emerging technologies to create products people genuinely enjoy using.";
